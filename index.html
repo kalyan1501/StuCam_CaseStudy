@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StuCam – Case Study | Connecting Clients with Local Photographers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sticky Navigation Header -->
+    <header class="sticky-header" id="header">
+        <nav class="nav-container">
+            <div class="nav-logo">StuCam</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#problem">Problem</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#insights">Insights</a></li>
+                <li><a href="#solution">Solution</a></li>
+                <li><a href="#screens">Screens</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title"> StuCam</h1>
+                    <p class="hero-subtitle">Connecting Clients with Local Photographers</p>
+                    <div class="hero-meta">
+                        <p class="hero-author">A UX Case Study by <strong>Kalyan Marripudagala</strong></p>
+                        <p class="hero-program">MA Interaction Design & Interactive Art · CSU East Bay</p>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/device.png" alt="StuCam app device mockup" class="device-mockup">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section id="overview" class="section overview-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">🌍</span>
+                <h2 class="section-title">Overview</h2>
+            </div>
+            <div class="overview-content">
+                <p class="overview-text">StuCam is a mobile application designed to make it simple for clients to discover and book nearby photographers from students and beginners to aspiring professionals quickly, affordably, and with confidence.</p>
+                <p class="overview-text">The platform supports photographers at all experience levels by giving them opportunities to build their portfolio, gain real-world experience, earn income, and grow their reputation. At the same time, StuCam offers clients including students, creators, performers, and small businesses a trusted and accessible way to find affordable creative talent for projects, events, and personal content.</p>
+                <p class="overview-text">Through its clear profiles, transparent pricing, availability tools, and structured booking flow, StuCam aims to solve common challenges found in the photography ecosystem, where people often rely on unreliable DMs, word-of-mouth, or expensive platforms to find help. The result is a local, trust-driven marketplace that brings photographers and clients together in an organized, user-friendly experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Problem Section -->
+    <section id="problem" class="section problem-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">🎯</span>
+                <h2 class="section-title">The Problem</h2>
+            </div>
+            <div class="problem-content">
+                <p class="problem-intro">Finding a photographer today is surprisingly hard — especially if you're on a student budget or need someone last-minute.</p>
+                
+                <div class="problem-group">
+                    <h3 class="subsection-title">Clients rely on:</h3>
+                    <ul class="problem-list">
+                        <li>Instagram DMs</li>
+                        <li>Word-of-mouth</li>
+                        <li>Scrolling hashtags</li>
+                        <li>Fiverr (often expensive and not local)</li>
+                    </ul>
+                </div>
+
+                <div class="problem-group">
+                    <h3 class="subsection-title">Meanwhile, beginner photographers struggle with:</h3>
+                    <ul class="problem-list">
+                        <li>Gaining credibility</li>
+                        <li>Finding paying clients</li>
+                        <li>Communicating expectations</li>
+                        <li>Building real-world experience</li>
+                    </ul>
+                </div>
+
+                <p class="problem-conclusion">There's no centralized, trustworthy, local-first platform where both sides can connect easily.</p>
+
+                <div class="quote-box">
+                    <p class="quote-text">"I needed someone to shoot reels today — and I had no idea where to look."</p>
+                    <p class="quote-author">— Research participant (performing arts student)</p>
+                </div>
+
+                <p class="problem-note">This gap is especially visible among students, small businesses, musicians, and early-career creatives.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="section research-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">🔍</span>
+                <h2 class="section-title">Research</h2>
+            </div>
+            <div class="research-content">
+                <div class="research-group">
+                    <h3 class="subsection-title">Goals</h3>
+                    <ul class="research-list">
+                        <li>Understand how people currently find photographers</li>
+                        <li>Explore challenges beginner photographers face</li>
+                        <li>Identify trust signals clients rely on</li>
+                        <li>Understand expectations before, during, and after a photoshoot</li>
+                        <li>Discover opportunities for a more reliable booking flow</li>
+                    </ul>
+                </div>
+
+                <div class="research-group">
+                    <h3 class="subsection-title">Methods</h3>
+                    <ul class="research-list">
+                        <li>1:1 interviews with clients and photographers</li>
+                        <li>Competitor analysis (Fiverr, Instagram, GigSalad, Snappr, etc.)</li>
+                        <li>Journey mapping</li>
+                        <li>Pain point clustering</li>
+                        <li>Behavior and motivation analysis</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Insights Section -->
+    <section id="insights" class="section insights-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">🗣</span>
+                <h2 class="section-title">Key Insights</h2>
+            </div>
+            <div class="insights-content">
+                <div class="insight-item">
+                    <h3>1. Trust is the foundation.</h3>
+                    <p>People won't book without:</p>
+                    <ul class="insight-list">
+                        <li>A portfolio</li>
+                        <li>Reviews</li>
+                        <li>Proof of identity</li>
+                        <li>Clear communication</li>
+                    </ul>
+                </div>
+
+                <div class="insight-item">
+                    <h3>2. Availability often matters more than perfection.</h3>
+                    <p>For last-minute gigs, the biggest question is:</p>
+                    <p class="insight-quote">"Is anyone available right now or this weekend?"</p>
+                </div>
+
+                <div class="insight-item">
+                    <h3>3. Pricing needs to be transparent.</h3>
+                    <p>Clients dislike negotiating through DMs — they want clear, upfront pricing.</p>
+                </div>
+
+                <div class="insight-item">
+                    <h3>4. Beginner photographers need structure.</h3>
+                    <p>They crave guidance on:</p>
+                    <ul class="insight-list">
+                        <li>Pricing</li>
+                        <li>Preparing for a shoot</li>
+                        <li>Setting boundaries</li>
+                        <li>Communicating with clients</li>
+                    </ul>
+                </div>
+
+                <div class="insight-item">
+                    <h3>5. Both sides experience frustration with DM-based booking.</h3>
+                    <p>Instagram DMs lack structure, professionalism, and organization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Archetypes Section -->
+    <section id="archetypes" class="section archetypes-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">👤</span>
+                <h2 class="section-title">User Archetypes</h2>
+            </div>
+            <div class="archetypes-content">
+                <div class="archetype-item">
+                    <h3>The Portfolio Builder (Student Photographer)</h3>
+                    <p><strong>Wants:</strong> experience, credibility, and repeat clients.</p>
+                    <div class="archetype-quote">"I just need someone to trust me enough to give me a chance."</div>
+                </div>
+
+                <div class="archetype-item">
+                    <h3>The Budget Creator (Student / Small Business Owner)</h3>
+                    <p><strong>Needs:</strong> quality photos they can afford.</p>
+                    <div class="archetype-quote">"I don't have a studio budget — I just need good photos."</div>
+                </div>
+
+                <div class="archetype-item">
+                    <h3>The Event Improviser (Musician / Performer)</h3>
+                    <p><strong>Books:</strong> last-minute gigs.</p>
+                    <div class="archetype-quote">"Is anyone free tonight to shoot our show?"</div>
+                </div>
+
+                <div class="archetype-item">
+                    <h3>The Skill Sharer (Aspiring Pro)</h3>
+                    <p><strong>Wants:</strong> recognition and consistency.</p>
+                    <div class="archetype-quote">"I want to grow my style and start charging more."</div>
+                </div>
+
+                <div class="archetype-item">
+                    <h3>The Side-Hustler</h3>
+                    <p><strong>Needs:</strong> flexible, on-campus side income.</p>
+                    <div class="archetype-quote">"I know my skills are worth something — I just need a platform that supports me."</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design Goals Section -->
+    <section id="design-goals" class="section design-goals-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">🧭</span>
+                <h2 class="section-title">Design Goals</h2>
+            </div>
+            <div class="design-goals-content">
+                <ul class="design-goals-list">
+                    <li>Make local discovery fast and intuitive</li>
+                    <li>Showcase portfolios and reviews to build trust</li>
+                    <li>Create a clean booking flow that works in minutes</li>
+                    <li>Let photographers control their availability and pricing</li>
+                    <li>Support photographers' professional growth</li>
+                    <li>Keep the UI simple, modern, and student-friendly</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="section solution-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">📱</span>
+                <h2 class="section-title">Solution: StuCam</h2>
+            </div>
+            <div class="solution-content">
+                <p class="solution-intro">StuCam brings clients and photographers together through a role-based, one-app experience.</p>
+                
+                <div class="solution-grid">
+                    <div class="solution-group">
+                        <h3 class="subsection-title">Key Features for Clients</h3>
+                        <ul class="solution-list">
+                            <li>Browse nearby photographers through a clean list (future: map)</li>
+                            <li>Apply filters: style, price, availability, distance, rating</li>
+                            <li>View detailed profiles with curated portfolios</li>
+                            <li>Book instantly with a sticky Book Now button</li>
+                            <li>Message photographers for logistics</li>
+                            <li>Track bookings: Pending, Upcoming, Completed</li>
+                            <li>Review photographers after shoots</li>
+                        </ul>
+                    </div>
+
+                    <div class="solution-group">
+                        <h3 class="subsection-title">Key Features for Photographers</h3>
+                        <ul class="solution-list">
+                            <li>Build profile + portfolio</li>
+                            <li>Set hourly rates</li>
+                            <li>Mark availability with toggle</li>
+                            <li>Accept/decline bookings</li>
+                            <li>Manage schedule</li>
+                            <li>Chat with clients</li>
+                            <li>Share work via Feed: Following · Trending · Near You</li>
+                            <li>Build reputation with reviews</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Flows Section -->
+    <section id="flows" class="section flows-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">🧩</span>
+                <h2 class="section-title">User Flows</h2>
+            </div>
+            <div class="flows-content">
+                <div class="flow-diagram">
+                    <h3>Client Flow</h3>
+                    <div class="flow-steps">
+                        <div class="flow-step">
+                            <span class="step-number">1</span>
+                            <span class="step-label">Explore</span>
+                        </div>
+                        <div class="flow-arrow">→</div>
+                        <div class="flow-step">
+                            <span class="step-number">2</span>
+                            <span class="step-label">Profile</span>
+                        </div>
+                        <div class="flow-arrow">→</div>
+                        <div class="flow-step">
+                            <span class="step-number">3</span>
+                            <span class="step-label">Book</span>
+                        </div>
+                        <div class="flow-arrow">→</div>
+                        <div class="flow-step">
+                            <span class="step-number">4</span>
+                            <span class="step-label">Message</span>
+                        </div>
+                        <div class="flow-arrow">→</div>
+                        <div class="flow-step">
+                            <span class="step-number">5</span>
+                            <span class="step-label">Shoot</span>
+                        </div>
+                        <div class="flow-arrow">→</div>
+                        <div class="flow-step">
+                            <span class="step-number">6</span>
+                            <span class="step-label">Review</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="flow-diagram">
+                    <h3>Photographer Flow</h3>
+                    <div class="flow-steps">
+                        <div class="flow-step">
+                            <span class="step-number">1</span>
+                            <span class="step-label">Profile Setup</span>
+                        </div>
+                        <div class="flow-arrow">→</div>
+                        <div class="flow-step">
+                            <span class="step-number">2</span>
+                            <span class="step-label">Portfolio</span>
+                        </div>
+                        <div class="flow-arrow">→</div>
+                        <div class="flow-step">
+                            <span class="step-number">3</span>
+                            <span class="step-label">Set Rates</span>
+                        </div>
+                        <div class="flow-arrow">→</div>
+                        <div class="flow-step">
+                            <span class="step-number">4</span>
+                            <span class="step-label">Manage Bookings</span>
+                        </div>
+                        <div class="flow-arrow">→</div>
+                        <div class="flow-step">
+                            <span class="step-number">5</span>
+                            <span class="step-label">Shoot</span>
+                        </div>
+                        <div class="flow-arrow">→</div>
+                        <div class="flow-step">
+                            <span class="step-number">6</span>
+                            <span class="step-label">Grow Reputation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wireframes Section -->
+    <section id="wireframes" class="section wireframes-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">🖼</span>
+                <h2 class="section-title">Early Design (Mid-Fi Screens)</h2>
+            </div>
+            <div class="wireframes-content">
+                <p class="wireframes-text">The mid-fidelity wireframe stage was where the core functionality of StuCam took shape. I explored different variations of:</p>
+                <ul class="wireframes-list">
+                    <li>Home screen list structure</li>
+                    <li>Filter panel placement</li>
+                    <li>Portfolio grid layout</li>
+                    <li>Booking request flow</li>
+                    <li>Availability calendar</li>
+                    <li>Photographer vs. Client navigation models</li>
+                </ul>
+                <p class="wireframes-note">These mid-fi screens served as the blueprint for the high-fidelity designs and ensured the product decisions aligned with user needs.</p>
+                
+                <div class="wireframes-gallery">
+                    <figure class="wireframe-figure">
+                        <img src="assets/1.png" alt="Home screen list structure" class="wireframe-image">
+                        <figcaption>Home screen list structure</figcaption>
+                    </figure>
+                    <figure class="wireframe-figure">
+                        <img src="assets/2.png" alt="Filter panel placement" class="wireframe-image">
+                        <figcaption>Filter panel placement</figcaption>
+                    </figure>
+                    <figure class="wireframe-figure">
+                        <img src="assets/3.png" alt="Portfolio grid layout" class="wireframe-image">
+                        <figcaption>Portfolio grid layout</figcaption>
+                    </figure>
+                    <figure class="wireframe-figure">
+                        <img src="assets/4.png" alt="Availability calendar" class="wireframe-image">
+                        <figcaption>Availability calendar</figcaption>
+                    </figure>
+                    <figure class="wireframe-figure">
+                        <img src="assets/5.png" alt="Role selection" class="wireframe-image">
+                        <figcaption>Role selection</figcaption>
+                    </figure>
+                    <figure class="wireframe-figure">
+                        <img src="assets/6.png" alt="Photographer home screen" class="wireframe-image">
+                        <figcaption>Photographer home screen</figcaption>
+                    </figure>
+                    <figure class="wireframe-figure">
+                        <img src="assets/7.png" alt="Client map view" class="wireframe-image">
+                        <figcaption>Client map view</figcaption>
+                    </figure>
+                    <figure class="wireframe-figure">
+                        <img src="assets/8.png" alt="Social feed" class="wireframe-image">
+                        <figcaption>Social feed</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- High-Fidelity Screens Section -->
+    <section id="screens" class="section screens-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">🎨</span>
+                <h2 class="section-title">High-Fidelity Screens</h2>
+            </div>
+            <div class="screens-organization">
+                <!-- Onboarding Screen -->
+                <div class="screen-group">
+                    <h3 class="screen-group-title">Onboarding</h3>
+                    <p class="screen-group-description">Role selection with clear guidance for photographers vs. clients</p>
+                    <div class="screens-grid">
+                        <div class="screen-card">
+                            <img src="assets/Role selections.png" alt="Role selection screen" class="screen-image">
+                            <p class="screen-label">Role Selection</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Client Experience Screens -->
+                <div class="screen-group">
+                    <h3 class="screen-group-title">Client Experience</h3>
+                    <p class="screen-group-description">Screens for clients to discover, view profiles, book, and communicate with photographers</p>
+                    <div class="screens-grid">
+                        <div class="screen-card">
+                            <img src="assets/Home (list view).png" alt="Client home list view" class="screen-image">
+                            <p class="screen-label">Home (List View)</p>
+                        </div>
+                        <div class="screen-card">
+                            <img src="assets/Home (map view).png" alt="Client home map view" class="screen-image">
+                            <p class="screen-label">Home (Map View)</p>
+                        </div>
+                        <div class="screen-card">
+                            <img src="assets/profile.png" alt="Photographer profile" class="screen-image">
+                            <p class="screen-label">Photographer Profile</p>
+                        </div>
+                        <div class="screen-card">
+                            <img src="assets/bookings.png" alt="Client bookings" class="screen-image">
+                            <p class="screen-label">Bookings</p>
+                        </div>
+                        <div class="screen-card">
+                            <img src="assets/filter.png" alt="Client filter screen" class="screen-image">
+                            <p class="screen-label">Filter</p>
+                        </div>
+                        <div class="screen-card">
+                            <img src="assets/feed.png" alt="Client feed" class="screen-image">
+                            <p class="screen-label">Feed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Photographer Experience Screens -->
+                <div class="screen-group">
+                    <h3 class="screen-group-title">Photographer Experience</h3>
+                    <p class="screen-group-description">Screens for photographers to manage their profile, portfolio, bookings, and client communications</p>
+                    <div class="screens-grid">
+                        <div class="screen-card">
+                            <img src="assets/photographer home.png" alt="Photographer home screen" class="screen-image">
+                            <p class="screen-label">Photographer Home</p>
+                        </div>
+                        <div class="screen-card">
+                            <img src="assets/photographer profile.png" alt="Photographer profile" class="screen-image">
+                            <p class="screen-label">Photographer Profile</p>
+                        </div>
+                        <div class="screen-card">
+                            <img src="assets/bookings calender.png" alt="Photographer bookings calendar" class="screen-image">
+                            <p class="screen-label">Bookings Calendar</p>
+                        </div>
+                        <div class="screen-card">
+                            <img src="assets/messages.png" alt="Photographer messages" class="screen-image">
+                            <p class="screen-label">Messages</p>
+                        </div>
+                        <div class="screen-card">
+                            <img src="assets/event details.png" alt="Event details" class="screen-image">
+                            <p class="screen-label">Event Details</p>
+                        </div>
+                        <div class="screen-card">
+                            <img src="assets/notifications.png" alt="Photographer notifications" class="screen-image">
+                            <p class="screen-label">Notifications</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Component Section -->
+    <section id="tech" class="section tech-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">⚙️</span>
+                <h2 class="section-title">Tech Component</h2>
+            </div>
+            <div class="tech-content">
+                <ul class="tech-list">
+                    <li>All UI designed in <strong>Figma</strong></li>
+                    <li>Built into a functioning iOS prototype using <strong>Cursor + Vibe coding</strong></li>
+                    <li>Imported into <strong>Xcode</strong> for refinement</li>
+                    <li><strong>Simulated:</strong> List-based discovery, Map pins (future feature), Availability toggle, Booking states, Messaging</li>
+                    <li><strong>Next:</strong> → Publish TestFlight build for early testing</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Iterations Section -->
+    <section id="iterations" class="section iterations-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">🔄</span>
+                <h2 class="section-title">Iterations</h2>
+            </div>
+            <div class="iterations-content">
+                <div class="iteration-item">
+                    <h3>Initially: ZipyHelp</h3>
+                    <p>Too broad → hard to design deeply.</p>
+                </div>
+                <div class="iteration-item">
+                    <h3>Pivot: StuCam</h3>
+                    <p>Focused domain → deeper research + better UX.</p>
+                </div>
+                <div class="iteration-item">
+                    <h3>Other Key Decisions:</h3>
+                    <ul class="iteration-list">
+                        <li>One app, role-based UI</li>
+                        <li>Feed tabs: Following / Trending / Near You</li>
+                        <li>Portfolio = curated work; Posts = lighter activity preview</li>
+                        <li>Prioritized trust signals in profile</li>
+                        <li>Booking-first message inbox</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What I Learned Section -->
+    <section id="learned" class="section learned-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">🧪</span>
+                <h2 class="section-title">What I Learned</h2>
+            </div>
+            <div class="learned-content">
+                <ul class="learned-list">
+                    <li>Focusing the scope improves both research and design quality</li>
+                    <li>Beginners need professional structure</li>
+                    <li>Trust is the "currency" of marketplaces</li>
+                    <li>Locality and availability significantly shape UX</li>
+                    <li>Building in Cursor/Vibe coding accelerated prototyping</li>
+                    <li>Feedback loops dramatically improve flows</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Next Steps Section -->
+    <section id="next-steps" class="section next-steps-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">🚀</span>
+                <h2 class="section-title">Next Steps</h2>
+            </div>
+            <div class="next-steps-content">
+                <div class="next-steps-grid">
+                    <div class="next-step-group">
+                        <h3 class="subsection-title">Short-term</h3>
+                        <ul class="next-step-list">
+                            <li>Usability testing with 3–4 clients + 3–4 photographers</li>
+                            <li>Add payment flow (Stripe / Apple Pay)</li>
+                            <li>Improve availability scheduling</li>
+                            <li>Add more portfolio organization tools</li>
+                        </ul>
+                    </div>
+                    <div class="next-step-group">
+                        <h3 class="subsection-title">Long-term</h3>
+                        <ul class="next-step-list">
+                            <li>Real-time backend for messaging + bookings</li>
+                            <li>Verified photographer badges</li>
+                            <li>AI recommendations for photographers</li>
+                            <li>Expand from student community to city-wide ecosystem</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conclusion Section -->
+    <section id="conclusion" class="section conclusion-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">🎉</span>
+                <h2 class="section-title">Conclusion</h2>
+            </div>
+            <div class="conclusion-content">
+                <p class="conclusion-intro">StuCam empowers:</p>
+                <div class="conclusion-grid">
+                    <div class="conclusion-item">
+                        <h3>➤ Photographers</h3>
+                        <p>to gain experience, build credibility, and earn.</p>
+                    </div>
+                    <div class="conclusion-item">
+                        <h3>➤ Clients</h3>
+                        <p>to find trustworthy, affordable creative help nearby.</p>
+                    </div>
+                </div>
+                <p class="conclusion-closing">It fills a real gap in the creative gig world — helping emerging talent grow their careers while helping people capture moments that matter.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Kalyan Marripudagala</h3>
+                    <p>MA Interaction Design & Interactive Art<br>CSU East Bay</p>
+                </div>
+                <div class="footer-links">
+                    <a href="mailto:m.kalyankumar1512@gmail.com" class="footer-link">Email</a>
+                    <a href="https://www.behance.net/kalyannani2" target="_blank" class="footer-link">Behance</a>
+                    <a href="https://www.linkedin.com/in/kalyan-m-500b05246/" target="_blank" class="footer-link">LinkedIn</a>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2024 StuCam Case Study. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
